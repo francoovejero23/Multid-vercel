@@ -501,11 +501,10 @@ b{
             display:flex;  
             position: absolute;
             top: 2380px;
-            width:500px;
+            width:auto;
             left:20px;
             height:auto; 
             text-align: center;
-            
         }
 
       
