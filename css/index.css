@@ -35,7 +35,7 @@ body{
 .titulo{
     position: absolute;
     color:white;
-    top:60px;
+    top:210px;
     right:0px;
     align-items: center;
     font-size:10px;
@@ -44,23 +44,24 @@ body{
 }
 
 .titulo h1{
-    font-size:4em;
+    font-size:8em;
     color:white;
     font-weight: bold;
     align-items: center;
     }
 .titulo h2{
-    width: 90%;
+    width: auto;
     top:200px;
-    font-size: 1.18rem;
+    font-size: 1.7rem;
     align-items: center;
 }
 
+
 .titulo p{
     position: absolute;
-    top:100px;
+    top:150px;
     text-align:justify;
-    font-size:0.9rem;
+    font-size:1.1rem;
     width:90%;
 } 
 .header{
@@ -71,7 +72,7 @@ body{
     width: 100%;
     max-width: 87.5rem;
     margin: auto;
-    top: 180px;
+    top: 620px;
     font-size:15px;
     
 }
@@ -85,24 +86,24 @@ body{
  
 .despegue h2{
     
-    font-size:1.8em;
+    font-size:2.5em;
 }
 
 .despegue h5{
-    font-size:1.4em;
+    font-size:2em;
 }
 .despegue h6{
-    font-size:1em;
+    font-size:1.2em;
 }
 
 .beneficio{
     color:white;
     position: absolute;
-    top:120px;
+    top:250px;
     /* text-align: center; */
 }
 .beneficio h2{
-    font-size:1.5em;
+    font-size:2.5em;
 }
 .beneficio ul{
     width: 90%;
@@ -112,12 +113,11 @@ body{
     margin-top:10px;
 }
 .beneficio ul li a{
-    font-size:0.8rem;
+    font-size:1.2rem;
+    font-weight: bold;
 }
 .strong{
-   
         color:aquamarine;
-   
 }
 
 b{
@@ -132,7 +132,8 @@ b{
     align-items: center;
     font-style: italic;
     color:aquamarine;
-    top: 0px;
+    font-weight: bold;
+    top: 500px;
     width: 100%;
    
     position: relative;
@@ -151,8 +152,8 @@ b{
  } 
 
  .center_line p{
-    
-     font-size: 4em;
+    margin-right: 30px;
+     font-size: 5em;
      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  }
 
@@ -162,7 +163,7 @@ b{
     max-width: 87.5rem;
     margin: auto;
     font-size: 0.5rem;
-    top: 650px;
+    top: 1000px;
  
  }
  .container-c{
@@ -171,7 +172,7 @@ b{
     width: 100%;
     font-size:20px;
     font-size:10px;
-    top: 180px;
+    top: 1050px;
     right: 200px; 
     display:flex;
     }
@@ -179,7 +180,9 @@ b{
     .Card{
         position: absolute;
         font-size:16px;
-        width: 100%;
+        width: 95%;
+        height:290px;
+        margin:11px;
         background: rgba(55, 55, 55, 0.884);
         box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
         border-radius: 30px;
@@ -189,24 +192,26 @@ b{
         }
         
         .Card h3{
-            color:aquamarine;
+        color:aquamarine;
         top:5px;
-        text-align:justify;
-        font-size:0.95em;
-        width: 70%;
+        text-align: wrap;
+        font-size:1.2em;
+        width: 90%;
         left:20px;
+        padding:10px;
         position: absolute;
         }
         
         .Card p{
         color:#F4F4F4;
+        padding:15px;
         position: absolute;
         width: 95%;
         height:auto;
         overflow: hidden;
         text-align: left;
         font-weight: 600;
-        font-size: 0.75em;
+        font-size: 1em;
         top:30px; 
         left:10px;
         }
@@ -225,202 +230,232 @@ b{
         background: rgba(55, 55, 55, 0.884);
         box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
         border-radius: 30px;
-        
+        height:250px;
         left:200px;
-        top:690px;
+        top:800px;
+        width: 95%;
+        margin:11px;
         
         }
         .Card1 h3{
             color:aquamarine;
         top:5px;
-        text-align: center;
-        font-size:0.95em;
-        width: 50px;
-        left:25px;
+        text-align: wrap;
+        font-size:1.2em;
+        width: 90%;
+        left:20px;
+        padding:10px;
         position: absolute;
         }
-        
+
         
         .Card1 p{
-        color:#F4F4F4;
-        position: absolute;
-        width: 90%;
-        height:90%;
-        text-align: left;
-        font-weight: 600;
-        font-size: 0.70rem;
-        top:25px;
-        left:20px; 
+            color:#F4F4F4;
+            padding:15px;
+            position: absolute;
+            width: 95%;
+            height:auto;
+            overflow: hidden;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1em;
+            top:30px; 
+            left:10px;
         }
         .Card2{
-        position: absolute;
-        font-size:16px;
-        width: 100%;
-        padding: 120px;
-        background: rgba(55, 55, 55, 0.884);
-        box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
-        border-radius: 30px;
-        padding: 95px;
-        left:200px;
-        top:865px;
+            position: absolute;
+            font-size:16px;
+            width: 100%;
+            padding: 4.8em;
+            background: rgba(55, 55, 55, 0.884);
+            box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
+            border-radius: 30px;
+            height:250px;
+            left:200px;
+            top:1100px;
+            width: 95%;
+            margin:11px;
         
         }
         .Card2 h3{
             color:aquamarine;
-        top:10px;
-        
-        font-size:0.9em;
-        width: 50%;
-        left:25px;
-        position: absolute;
+            top:5px;
+            text-align: wrap;
+            font-size:1.2em;
+            width: 90%;
+            left:20px;
+            padding:10px;
+            position: absolute;
         }
         
         .Card2 p{
-        color:#F4F4F4;
-        position: absolute;
-        width: 90%;
-        height:90%;
-        text-align: left;
-        font-weight: 600;
-        font-size: 0.78em;
-        top:30px;
-        left:20px; 
+            color:#F4F4F4;
+            padding:15px;
+            position: absolute;
+            width: 95%;
+            height:auto;
+            overflow: hidden;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1em;
+            top:30px; 
+            left:10px; 
         }
         .Card3{
-        position: absolute;
-        font-size:1rem;
-        width: 100%;
-        padding: 70px;
-        background: rgba(55, 55, 55, 0.884);
-        box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
-        border-radius: 40px;
-        
-        left:200px;
-        top:1080px;
+            position: absolute;
+            font-size:16px;
+            width: 100%;
+            padding: 4.8em;
+            background: rgba(55, 55, 55, 0.884);
+            box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
+            border-radius: 30px;
+            height:250px;
+            left:200px;
+            top:1400px;
+            width: 95%;
+            margin:11px;
         }
         
         .Card3 h3{
             color:aquamarine;
-            top:10px;
-            
-            font-size:0.9rem;
-            width: 50%;
-            left:25px;
+            top:5px;
+            text-align: wrap;
+            font-size:1.2em;
+            width: 90%;
+            left:20px;
+            padding:10px;
             position: absolute;
         }
         
         .Card3 p{
-        color:#F4F4F4;
-        position: absolute;
-        width: 95%;
-        height:auto;
-        text-align: left;
-        font-weight: 600;
-        font-size: 0.8rem;
-        top:28px;
-        left:10px; 
+            color:#F4F4F4;
+            padding:15px;
+            position: absolute;
+            width: 95%;
+            height:auto;
+            overflow: hidden;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1em;
+            top:30px; 
+            left:10px; 
         }
         .Card4{
-        position: absolute;
-        font-size:1rem;
-        width: 100%;
-        padding: 100px;
-        background: rgba(55, 55, 55, 0.884);
-        box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
-        border-radius: 40px;
-        
-        left:200px;
-        top:1250px;
+            position: absolute;
+            font-size:16px;
+            width: 100%;
+            padding: 4.8em;
+            background: rgba(55, 55, 55, 0.884);
+            box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
+            border-radius: 30px;
+            height:250px;
+            left:200px;
+            top:1700px;
+            width: 95%;
+            margin:11px;
         }
         
         .Card4 h3{
             color:aquamarine;
-            top:10px;
-            
-            font-size:0.9rem;
-            width: 80%;
-            left:25px;
+            top:5px;
+            text-align: wrap;
+            font-size:1.2em;
+            width: 90%;
+            left:20px;
+            padding:10px;
             position: absolute;
         }
         
         .Card4 p{
             color:#F4F4F4;
+            padding:15px;
             position: absolute;
-            width: 90%;
+            width: 95%;
             height:auto;
+            overflow: hidden;
             text-align: left;
             font-weight: 600;
-            font-size: 0.8em;
-            top:35px;
-            left:20px; 
+            font-size: 1em;
+            top:30px; 
+            left:10px; 
         }
         .Card5{
-        position: absolute;
-        font-size:1rem;
-        width: 100%;
-        padding:103px;
-        background: rgba(55, 55, 55, 0.884);
-        box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
-        border-radius: 40px;
-        
-        left:200px;
-        top:1470px;
+            position: absolute;
+            font-size:16px;
+            width: 100%;
+            padding: 4.8em;
+            background: rgba(55, 55, 55, 0.884);
+            box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
+            border-radius: 30px;
+            height:250px;
+            left:200px;
+            top:2000px;
+            width: 95%;
+            margin:11px;
         }
         
         .Card5 h3{
             color:aquamarine;
-            top:15px;
-            
-            font-size:1rem;
-            width: 80%;
-            left:25px;
+            top:5px;
+            text-align: wrap;
+            font-size:1.2em;
+            width: 90%;
+            left:20px;
+            padding:10px;
             position: absolute;
         }
         
         .Card5 p{
             color:#F4F4F4;
+            padding:15px;
             position: absolute;
             width: 95%;
-            height:90%;
+            height:auto;
+            overflow: hidden;
             text-align: left;
             font-weight: 600;
-            font-size: 0.8rem;
-            top:35px;
-            left:20px;  
+            font-size: 1em;
+            top:30px; 
+            left:10px;  
         }
         .Card6{
-        position: absolute;
-        font-size:1rem;
-        width: 100%;
-        padding:103px;
-        background: rgba(55, 55, 55, 0.884);
-        box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
-        border-radius: 40px;
-        
-        left:200px;
-        top:1700px;
+            position: absolute;
+            font-size:16px;
+            width: 100%;
+            padding: 4.8em;
+            background: rgba(55, 55, 55, 0.884);
+            box-shadow: 8px 7px 4px rgba(0, 0, 0, 0.637);
+            border-radius: 30px;
+            height:250px;
+            left:200px;
+            top:2300px;
+            width: 95%;
+            margin:11px;
         }
         
         .Card6 h3{
             color:aquamarine;
-            top:10px;
-            
-            font-size:1rem;
-            width: 80%;
-            left:25px;
+            top:5px;
+            text-align: wrap;
+            font-size:1.2em;
+            width: 90%;
+            left:20px;
+            padding:10px;
             position: absolute;
         }
         
         .Card6 p{
             color:#F4F4F4;
+            padding:15px;
             position: absolute;
-            width: 90%;
-            height:90%;
+            width: 95%;
+            height:auto;
+            overflow: hidden;
             text-align: left;
             font-weight: 600;
-            font-size: 0.8rem;
-            top:35px;
-            left:20px; 
+            font-size: 1em;
+            top:30px; 
+            left:10px;
         }
         img{
             display: block;
@@ -434,7 +469,7 @@ b{
 
         .redes-container{
             position: relative;
-            top:2010px;
+            top:3600px;
             display: flex;
             height: auto;
             width:100%;
@@ -500,7 +535,7 @@ b{
         footer {   
             display:flex;  
             position: absolute;
-            top: 2380px;
+            top: 3450px;
             width:auto;
             left:20px;
             height:auto; 
@@ -1542,6 +1577,12 @@ b{
             display:flex;
             justify-content: center;
             flex-wrap: wrap;
+         }
+         .center_line {
+            top: 150px;
+           
+            position: relative;
+           
          }
         img{
             display: block;
