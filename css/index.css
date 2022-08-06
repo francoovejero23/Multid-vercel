@@ -535,9 +535,9 @@ b{
         footer {   
             display:flex;  
             position: absolute;
-            top: 3450px;
+            top: 4050px;
             width:auto;
-            left:20px;
+            left:50px;
             height:auto; 
             text-align: center;
         }
@@ -2002,7 +2002,7 @@ b{
         footer {   
             display:flex;  
             position: absolute;
-            top: 6500px;
+            top: 6600px;
             width:50%;
             left:25%;
             height:auto; 
